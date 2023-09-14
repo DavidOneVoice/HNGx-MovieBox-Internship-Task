@@ -1,0 +1,16 @@
+.navbar {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        flex-wrap: wrap;
+        padding-top: 3em;
+    }
+}

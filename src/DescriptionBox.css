@@ -1,0 +1,160 @@
+.descriptionbox {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 5em;
+}
+
+.descriptionbox h1 {
+    width: 404px;
+    color: #FFF;
+    font-family: DM Sans, Georgia, 'Times New Roman', Times, serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.imdb {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.description {
+    width: 45%;
+    line-height: 1.5em;
+    margin-bottom: 2em;
+}
+
+.trailer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 12%;
+    background-color: red;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    font-size: 0.7em;
+}
+
+.tomatologo {
+    background: url(../src/assets/tomato.svg);
+    width: 1em;
+    height: 1em;
+    margin-left: 2em;
+}
+
+.imdbchild {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imdblogo {
+    background: url(../src/assets/imdb.svg);
+    width: 2em;
+    height: 1em;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+}
+
+@media (max-width: 1200px) {
+    .imdb {
+        width: 25%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .imdb {
+        width: 30%;
+    }
+}
+
+@media (max-width: 850px) {
+    .imdb {
+        width: 35%;
+    }
+}
+
+@media (max-width: 750px) {
+    .imdb {
+        width: 40%;
+    }
+}
+
+@media (max-width: 700px) {
+    .descriptionbox h1 {
+        font-size: 2.5em;
+    }
+
+    .imdb {
+        width: 15em;
+    }
+
+    .trailer {
+        width: 10em;
+    }
+
+    .description {
+        width: 60%;
+    }
+}
+
+@media (max-width: 500px) {
+    .description {
+        width: 80%;
+        font-size: 1.2em;
+    }
+
+    .trailer {
+        font-size: 1.2em;
+    }
+
+    .imdbchild {
+        font-size: 1.3em;
+    }
+
+    .imdblogo {
+        width: 1.4em;
+    }
+}
+
+@media (max-width: 350px) {
+    .description {
+        width: 100%;
+    }
+}
+
+@media (max-width: 300px) {
+    .description {
+        font-size: 1.5em;
+    }
+
+    .trailer {
+        font-size: 1.5em;
+    }
+
+    .imdb {
+        font-size: 1.3em;
+    }
+
+    .imdblogo,
+    .tomatologo {
+        width: 1.5em;
+        height: 1.5em;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (max-width: 200px) {
+    .imdb {
+        font-size: 1.8em;
+    }
+
+    .description {
+        font-size: 1.8em;
+    }
+}

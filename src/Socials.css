@@ -1,0 +1,30 @@
+.socials {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+@media (max-width: 900px) {
+    .socials {
+        width: 30%;
+    }
+}
+
+@media (max-width: 600px) {
+    .socials {
+        width: 50%;
+    }
+}
+
+@media (max-width: 500px) {
+    .socials {
+        width: 60%;
+    }
+}
+
+@media (max-width: 300px) {
+    .socials {
+        width: 100%;
+    }
+}

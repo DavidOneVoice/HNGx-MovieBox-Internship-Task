@@ -1,0 +1,58 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu svg {
+    background-color: red;
+    margin-left: 1em;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    align-self: center;
+}
+
+@media (max-width: 500px) {
+    .menu h4 {
+        font-size: 1.5em;
+    }
+
+    .menu svg {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 400px) {
+    .menu h4 {
+        font-size: 2em;
+    }
+
+    .menu svg {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 300px) {
+    .menu h4 {
+        font-size: 2.5em;
+    }
+
+    .menu svg {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+@media (max-width: 200px) {
+    .menu h4 {
+        font-size: 3em;
+    }
+
+    .menu svg {
+        width: 50px;
+        height: 50px;
+    }
+}

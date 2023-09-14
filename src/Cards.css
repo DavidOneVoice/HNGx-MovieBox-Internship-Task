@@ -1,0 +1,84 @@
+.cards {
+    height: 90em;
+    padding-left: 6em;
+    padding-right: 6em;
+    margin-bottom: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media (max-width: 900px) {
+    .cards {
+        margin-bottom: 25em;
+        padding-left: 3em;
+        padding-right: 3em;
+    }
+}
+
+@media (max-width: 700px) {
+    .cards {
+        margin-bottom: 55em;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+}
+
+@media (max-width: 600px) {
+    .cards {
+        padding-left: 2em;
+        padding-right: 1.5em;
+    }
+}
+
+@media (max-width: 550px) {
+    .cards {
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .cards {
+        padding-left: 2em;
+        padding-right: 1em;
+        margin-bottom: 260em;
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 450px) {
+    .cards {
+        width: 140%;
+    }
+}
+
+@media (max-width: 400px) {
+    .cards {
+        width: 140%;
+    }
+}
+
+@media (max-width: 320px) {
+    .cards {
+        width: 150%;
+    }
+}
+
+@media (max-width: 300px) {
+    .cards {
+        width: 185%;
+    }
+}
+
+@media (max-width: 250px) {
+    .cards {
+        width: 230%;
+    }
+}
+
+@media (max-width: 200px) {
+    .cards {
+        width: 280%;
+    }
+}

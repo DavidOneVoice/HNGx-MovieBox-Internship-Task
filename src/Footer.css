@@ -1,0 +1,30 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 500px) {
+    .footer {
+        width: 110%;
+    }
+}
+
+@media (max-width: 400px) {
+    .footer {
+        margin-left: 5em;
+    }
+}
+
+@media (max-width: 300px) {
+    .footer {
+        margin-left: 5.5em;
+    }
+}
+
+@media (max-width: 200px) {
+    .footer {
+        width: 170%;
+    }
+}

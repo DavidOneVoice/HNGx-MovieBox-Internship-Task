@@ -1,0 +1,64 @@
+.card {
+    width: 23%;
+    height: 25em;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.card img {
+    height: 80%;
+    margin-bottom: 1em;
+}
+
+.card h4 {
+    color: black;
+    align-self: flex-start;
+    margin-left: 0em;
+}
+
+.card h2 {
+    align-self: flex-start;
+    margin-bottom: 1em;
+}
+
+@media (max-width: 900px) {
+    .card {
+        width: 32%;
+        margin-bottom: 4em;
+    }
+}
+
+@media (max-width: 700px) {
+    .card {
+        width: 48%;
+    }
+}
+
+@media (max-width: 500px) {
+    .card {
+        width: 100%;
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 400px) {
+    .card h4 {
+        font-size: 1.6em;
+    }
+
+    .card h2 {
+        font-size: 1.8em;
+    }
+}
+
+@media (max-width: 250px) {
+    .card h4 {
+        font-size: 1.8em;
+    }
+
+    .card h2 {
+        font-size: 2em;
+    }
+}

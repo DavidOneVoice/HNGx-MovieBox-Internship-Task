@@ -1,0 +1,67 @@
+.pages {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+.pages a {
+    text-decoration: none;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: all 0.5s;
+}
+
+.pages a:hover {
+    color: black;
+    cursor: pointer;
+}
+
+@media (max-width: 900px) {
+    .pages {
+        width: 60%;
+    }
+}
+
+@media (max-width: 600px) {
+    .pages {
+        width: 80%;
+    }
+}
+
+@media (max-width: 500px) {
+    .pages a {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 400px) {
+    .pages {
+        flex-direction: column;
+        height: 10em;
+        align-items: center;
+    }
+
+    .pages a {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 300px) {
+    .pages {
+        width: 100%;
+        height: 20em;
+        margin-top: 3em;
+    }
+}
+
+@media (max-width: 200px) {
+    .pages a {
+        font-size: 3em;
+    }
+
+    .pages {
+
+        height: 30em;
+    }
+}

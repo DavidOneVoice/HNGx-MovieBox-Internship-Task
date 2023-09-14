@@ -1,0 +1,13 @@
+.headcontent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+@media (max-width: 400px) {
+    .headcontent {
+        flex-direction: column;
+    }
+}

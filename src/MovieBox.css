@@ -1,0 +1,56 @@
+.tvlogo {
+    width: 50px;
+    height: 50px;
+    background: url(../src/assets/tv-removebg-preview.png), lightgray 50% / cover no-repeat;
+    border-radius: 50%;
+}
+
+.movieBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h4 {
+    color: white;
+    margin-left: 1em;
+    align-self: center;
+}
+
+@media (max-width: 500px) {
+    h4 {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 400px) {
+    h4 {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 300px) {
+    h4 {
+        font-size: 2.5em;
+    }
+
+    .tvlogo {
+        width: 80px;
+        height: 80px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 200px) {
+    h4 {
+        font-size: 3em;
+    }
+
+    .tvlogo {
+        width: 90px;
+        height: 90px;
+        ;
+    }
+}

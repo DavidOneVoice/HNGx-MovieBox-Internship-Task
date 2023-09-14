@@ -1,0 +1,93 @@
+.searchBox {
+    width: 525px;
+    height: auto;
+    padding: 6px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+    border: 2px solid var(--gray-300, #D1D5DB);
+}
+
+.searchBox input {
+    background: none;
+    border: none;
+    color: var(--white, #FFF);
+    font-family: DM Sans, monospace;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    width: auto;
+    height: auto;
+}
+
+.searchBox input::placeholder {
+    color: white;
+}
+
+.searchBox input:focus {
+    border: none;
+}
+
+.searchBox svg {
+    align-self: center;
+}
+
+@media (max-width: 900px) {
+    .searchBox {
+        width: 50%;
+    }
+}
+
+@media (max-width: 650px) {
+    .searchBox {
+        width: 40%;
+    }
+}
+
+@media (max-width: 600px) {
+    .searchBox {
+        width: 75%;
+        height: 2em;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+}
+
+@media (max-width: 400px) {
+    .searchBox {
+        height: 2.5em;
+    }
+
+    .searchBox input {
+        width: 80%;
+    }
+}
+
+@media (max-width: 300px) {
+    .searchBox {
+        height: 3em;
+        padding-top: 0em;
+        padding-bottom: 0em;
+        width: 90%;
+    }
+
+    .searchBox input {
+        height: 100%;
+    }
+
+    .searchBox input::placeholder {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 200px) {
+    .searchBox {
+        height: 4em;
+    }
+
+    .searchBox input {
+        height: 100%;
+    }
+}
