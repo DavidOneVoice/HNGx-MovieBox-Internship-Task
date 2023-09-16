@@ -5,17 +5,34 @@
     display: flex;
     flex-direction: column;
     align-content: space-between;
+    margin-bottom: 3em;
+    padding-bottom: 2em;
+    border-bottom: 2px solid gold;
 }
 
 .card img {
     height: 80%;
     margin-bottom: 1em;
+    position: relative;
+}
+
+.card button {
+    position: absolute;
+    background: none;
+    border: none;
+    font-size: 2em;
+    padding-top: 0.em;
+    padding-left: 0.3em;
 }
 
 .card h4 {
-    color: black;
+    color: white;
     align-self: flex-start;
     margin-left: 0em;
+}
+
+.card h2 {
+    color: white;
 }
 
 .card h2 {
@@ -27,6 +44,7 @@
     .card {
         width: 32%;
         margin-bottom: 4em;
+        padding-bottom: 3em;
     }
 }
 
@@ -42,6 +60,7 @@
         font-size: 1.2em;
     }
 }
+
 
 @media (max-width: 400px) {
     .card h4 {
