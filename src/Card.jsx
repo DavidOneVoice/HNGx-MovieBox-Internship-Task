@@ -8,6 +8,7 @@ export default function Card(props) {
         setActive(!active);
     };
 
+
     return (
         <>
             {favMovies.map((movie, index) => (

@@ -1,0 +1,126 @@
+.trailerbottom {
+    display: flex;
+    flex-direction: row;
+}
+
+.leftdiv {
+    width: 70%;
+    height: 10em;
+}
+
+.leftdiv h4 {
+    color: black;
+    opacity: 0.8;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 0em;
+    padding-right: 2em;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+}
+
+.leftdiv span {
+    color: darkred;
+}
+
+.leftdiv div {
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: 95%;
+}
+
+.leftdiv button {
+    height: 3em;
+    color: white;
+    background-color: darkred;
+    border-color: darkred;
+    font-size: 1em;
+    border: none;
+    border-radius: 10px;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-right: 2em;
+    transition: all 0.3s;
+}
+
+.leftdiv button:hover {
+    color: darkred;
+    background-color: rgb(255, 218, 218);
+    border-color: darkred;
+    cursor: pointer;
+}
+
+select {
+    border: none;
+    font-size: 1.3em;
+    width: 60%;
+}
+
+.rightdiv {
+    width: 30%;
+    height: 16em;
+    display: flex;
+    flex-direction: column;
+}
+
+.rightdiv button {
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    font-size: 1em;
+    border-radius: 10px;
+    margin-bottom: 0.5em;
+    border: none;
+    width: 90%;
+    align-self: flex-end;
+}
+
+.showlogo {
+    width: 1em;
+    height: 1em;
+    align-self: center;
+    margin-right: 1em;
+}
+
+.listlogo {
+    width: 1em;
+    height: 1em;
+    align-self: center;
+    border-radius: 50%;
+    margin-right: 1em;
+}
+
+.rightdiv button:nth-of-type(1) {
+    color: white;
+    background-color: darkred;
+    transition: all 0.3s;
+}
+
+.rightdiv button:nth-of-type(1):hover {
+    color: black;
+    background-color: rgb(255, 218, 218);
+    border: 1px solid darkred;
+    cursor: pointer;
+}
+
+.rightdiv button:nth-of-type(2) {
+    color: black;
+    background-color: rgb(255, 218, 218);
+    border: 1px solid darkred;
+    transition: all 0.3s;
+}
+
+.rightdiv button:nth-of-type(2):hover {
+    color: white;
+    background-color: darkred;
+    cursor: pointer;
+}
+
+.images {
+    width: 100%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.images img {
+    width: 32.5%;
+}

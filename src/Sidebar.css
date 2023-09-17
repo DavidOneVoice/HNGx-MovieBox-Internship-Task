@@ -1,0 +1,230 @@
+.sidebar {
+    width: 15%;
+    border-right: 1px solid grey;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.moviebox {
+    display: flex;
+    width: 100%;
+    padding: 1em;
+    margin-bottom: 3em;
+}
+
+.moviebox h1 {
+    font-size: 1.2em;
+    margin-left: -3.5em;
+    align-self: center;
+}
+
+.homeparent {
+    display: flex;
+    width: 84%;
+    padding-left: 2em;
+    margin-bottom: 2em;
+    transition: all 0.3s;
+}
+
+.homeparent:hover {
+    background-color: rgb(240, 234, 234);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    cursor: pointer;
+}
+
+.homelogo {
+    background: url('../src/assets/homepagelogo.png');
+    width: 2em;
+    height: 2em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+}
+
+.homeparent h2 {
+    font-size: 1.2em;
+    opacity: 0.8;
+    align-self: center;
+    margin-left: 2em;
+}
+
+.movieparent {
+    display: flex;
+    width: 84%;
+    padding-left: 2em;
+    margin-bottom: 2em;
+    transition: all 0.3s;
+}
+
+.movieparent:hover {
+    background-color: rgb(240, 234, 234);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    cursor: pointer;
+}
+
+.movielogo {
+    background: url('../src/assets/videoslogo.png');
+    width: 2em;
+    height: 2em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+}
+
+.movieparent h2 {
+    font-size: 1.2em;
+    opacity: 0.8;
+    align-self: center;
+    margin-left: 2em;
+}
+
+.tvparent {
+    display: flex;
+    width: 100%;
+    margin-bottom: 2em;
+    background-color: rgb(255, 218, 218);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-right: 5px solid darkred;
+    transition: all 0.3s;
+}
+
+.tvparent:hover {
+    background-color: rgb(240, 234, 234);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    cursor: pointer;
+}
+
+.showlogo {
+    background: url('../src/assets/tvlogo.png');
+    width: 2em;
+    height: 2em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+    margin-left: 2em;
+}
+
+.tvparent h2 {
+    font-size: 1.2em;
+    opacity: 0.8;
+    align-self: center;
+    margin-left: 2em;
+}
+
+.calenderparent {
+    display: flex;
+    width: 68%;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-bottom: 2em;
+    transition: all 0.3s;
+}
+
+.calenderparent:hover {
+    background-color: rgb(240, 234, 234);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    cursor: pointer;
+}
+
+.calenderlogo {
+    background: url('../src/assets/calenderlogo.png');
+    width: 2em;
+    height: 2em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+}
+
+.calenderparent h2 {
+    font-size: 1.2em;
+    opacity: 0.8;
+    align-self: center;
+    margin-left: 2em;
+}
+
+.games {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 7em;
+    border: 1px solid darkred;
+    align-self: center;
+    padding: 0.5em;
+    border-radius: 10px;
+    background-color: rgb(255, 218, 218);
+    margin-bottom: 2em;
+}
+
+.games h4 {
+    color: black;
+    font-size: 0.8em;
+    width: 100%;
+    margin-bottom: 0.5em;
+}
+
+.games h5 {
+    font-size: 0.7em;
+    width: 100%;
+    margin-bottom: 1.5em;
+    margin-left: 0.5em;
+}
+
+.games button {
+    font-size: 0.6em;
+    background-color: rgb(255, 218, 218);
+    color: darkred;
+    padding: 0.4em 0.8em;
+    border-radius: 20px;
+    border-color: darkred;
+    transition: all 0.3s;
+}
+
+.games button:hover {
+    background-color: darkred;
+    color: white;
+    border-color: darkred;
+    cursor: pointer;
+}
+
+.logoutparent {
+    display: flex;
+    width: 84%;
+    padding-left: 2em;
+    margin-bottom: 2em;
+    transition: all 0.3s;
+}
+
+.logoutparent:hover {
+    background-color: rgb(240, 234, 234);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    cursor: pointer;
+}
+
+.logoutlogo {
+    background: url('../src/assets/logoutlogo.png');
+    width: 1em;
+    height: 1em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+}
+
+.logoutparent h2 {
+    font-size: 1em;
+    opacity: 0.8;
+    align-self: center;
+    margin-left: 2em;
+}

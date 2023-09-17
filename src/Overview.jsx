@@ -1,9 +1,12 @@
-
+import Sidebar from "./Sidebar"
+import Details from "./Details"
+import './Overview.css'
 export default function Overview() {
 
     return (
-        <div>
-            <h1>Overview</h1>
+        <div className="overview">
+            <Sidebar />
+            <Details />
         </div>
     )
 }

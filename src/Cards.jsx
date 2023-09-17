@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
+import { Routes, Route, Link } from 'react-router-dom'
+import Overview from './Overview';
 import Card from './Card'
 import './Cards.css'
 export default function Cards() {
@@ -16,9 +18,15 @@ export default function Cards() {
 
 
     return (
-        <div className='cards'>
-            <Card movies={movies} />
-        </div>
+        <>
+
+            <div className='cards'>
+                <Card to="/overview" movies={movies} />
+            </div>
+            <Routes>
+                <Route path='/overview' element={<Overview />} />
+            </Routes>
+        </>
     )
 }
 
